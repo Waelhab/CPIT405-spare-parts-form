@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Auto Parts - Scrollable Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="left">
+        <div class="logo">Great Auto Parts</div>
+        <div class="caption">Order Form</div>
+    </div>
+    <div class="right">
+        <h2>Great Auto Parts - Order Form</h2>
+        <form>
+            <input type="text" name="first-name" placeholder="First Name">
+            <input type="text" name="last-name" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="number" name="phone" placeholder="Phone number">
+            <input type="text" name="make" placeholder="Make">
+            <select id="car-company" name="car-company">
+                <option value="" disabled selected>Select a car company</option>
+                <option value="toyota">Toyota</option>
+                <option value="ford">Ford</option>
+                <option value="honda">Honda</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="nissan">Nissan</option>
+                <option value="hyundai">Hyundai</option>
+                <option value="kia">Kia</option>
+                <option value="mazda">Mazda</option>
+                <option value="subaru">Subaru</option>
+                <option value="porsche">Porsche</option>
+                <option value="jaguar">Jaguar</option>
+                <option value="lexus">Lexus</option>
+                <option value="tesla">Tesla</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="lamborghini">Lamborghini</option>
+                <option value="volvo">Volvo</option>
+              </select>
+         
+              <select id="car-model" name="car-model">
+                  <option value="" disabled selected>Select a car model</option>
+                  <option value="a3">Audi A3</option>
+                  <option value="a4">Audi A4</option>
+                  <option value="accord">Honda Accord</option>
+                  <option value="altima">Nissan Altima</option>
+                  <option value="aventador">Lamborghini Aventador</option>
+                  <option value="camaro">Chevrolet Camaro</option>
+                  <option value="camry">Toyota Camry</option>
+                  <option value="cayenne">Porsche Cayenne</option>
+                  <option value="civic">Honda Civic</option>
+                  <option value="corolla">Toyota Corolla</option>
+                  <option value="crv">Honda CR-V</option>
+                  <option value="e-class">Mercedes-Benz E-Class</option>
+                  <option value="elantra">Hyundai Elantra</option>
+                  <option value="explorer">Ford Explorer</option>
+                  <option value="f-150">Ford F-150</option>
+                  <option value="focus">Ford Focus</option>
+                  <option value="forester">Subaru Forester</option>
+                  <option value="golf">Volkswagen Golf</option>
+                  <option value="highlander">Toyota Highlander</option>
+                  <option value="impreza">Subaru Impreza</option>
+                  <option value="jaguar-f-type">Jaguar F-Type</option>
+                  <option value="jetta">Volkswagen Jetta</option>
+                  <option value="macan">Porsche Macan</option>
+                  <option value="malibu">Chevrolet Malibu</option>
+                  <option value="mustang">Ford Mustang</option>
+                  <option value="passat">Volkswagen Passat</option>
+                  <option value="pilot">Honda Pilot</option>
+                  <option value="prius">Toyota Prius</option>
+                  <option value="sentra">Nissan Sentra</option>
+                  <option value="wrx">Subaru WRX</option>
+              </select>
+              
+
+            <input type="number" name="year" placeholder="Year">
+            <input type="date" name="date" placeholder="Date">
+            <input type="text" name="spare-part" placeholder="Spare Part">
+            <input type="number" name="quantity" placeholder="Quantity">
+            <textarea name="comment" placeholder="Comment"></textarea>
+            <button class="submit-btn" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
